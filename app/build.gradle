@@ -37,12 +37,6 @@ android {
     buildFeatures {
         mlModelBinding true
     }
-    externalNativeBuild {
-        cmake {
-            version '3.10.2'
-            path file('src/main/cpp/CMakeLists.txt')
-        }
-    }
 
 }
 
